@@ -1,0 +1,36 @@
+.badge {
+  background-color: tomato;
+  color: white;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+.cog-badge {
+  position: absolute;
+  top: 45px;
+  right: 15px;
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 15px;
+  font-weight: 600;
+}
+
+.new-badge {
+  position: absolute;
+  margin-left: 5px;
+  background-color: white;
+  color: tomato;
+  text-align: center;
+  border: 2px solid tomato;
+  width: 1em;
+  padding: 0.1px 0.2px;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 0.8em;
+}
